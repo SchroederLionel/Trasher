@@ -1,0 +1,12 @@
+.mainScreen {
+ -fx-background-color: linear-gradient(to right, #00bf8f, #001510);
+}
+
+.menuButton {
+    -fx-background-color: transparent;
+    -fx-border-color: none;
+}
+.charButton {
+    -fx-font-size: 18pt ;
+    -fx-font-weight: bold;
+}

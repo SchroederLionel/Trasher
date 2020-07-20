@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.controllers.trasherController">
+   <children>
+      <TextField fx:id="word" />
+      <Button mnemonicParsing="false" onMouseClicked="#generate" text="Generate" />
+      <TextArea fx:id="textView" prefHeight="400.0" prefWidth="334.0" />
+   </children>
+</HBox>
